@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<meta lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <title>Technical documentation</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Java Documentation</header>
+    <ul>
+      <li>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+      <li>
+        <a class="nav-link" href="#Why_use_JAVA?">Why use JAVA?</a>
+        </li>
+      <li><a class="nav-link" href="#Hello_World_Program">Hello World Program</a> </li>
+      <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+      <li><a class="nav-link" href="#Identifiers">Identifiers</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li><a class="nav-link" href="#String">String</a></li>
+      
+      <li><a class="nav-link" href="#References">References</a></li>
+
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article>
+      <p>Java is a class-based object-oriented simple programming language. However, we can not consider it to be fully object-oriented as it supports primitive datatypes. It is a general-purpose, high-level programming language that helps programmers and developers to write code once and run it anywhere. </p>
+      <p>Application Programs: </p>
+        <ul></ul>
+        <li>The program creation (writing the code)</li>
+        <li>The program compilation.</li>
+        <li>Executing the compiled code.</li>
+
+      </article>
+    </section>
+    <section class="main-section" id="Why_use_JAVA?">
+      <header>Why use JAVA?</header>
+      <article>
+        <p> Java is a high-level language and should be studied if you want to know the basics of programming. </p>
+        <p>Let us learn why there is a need to learn the language.</p>
+        <ul>
+          <li>Object-Oriented</li>
+          <li> Portable</li>
+          <li> Simple</li>
+          <li> Secure</li>
+          <li>Robust</li>
+          <li>Platform Independent</li>
+          <li>Architecture neutral</li>
+        </ul>
+      </articel>
+    </section>
+    <section class="main-section" id="Hello_World_Program">
+      <header>Hello World Program</header>
+      <article>
+        <p>The below-given program is the most simple program of Java printing “Hello World” to the screen. Let us try to understand every bit of code step by step.</p>
+        <code>class HelloWorld {
+    
+    public static void main(String args[])
+    {
+        System.out.println("Hello, World");
+    }
+}</code>
+      </article>
+    </section>
+    <section class="main-section" id="Data_Types">
+      <header>Data Types</header>
+      <article>
+        <p>Data types in Java are of different sizes and values that can be stored in the variable that is made as per convenience and circumstances to cover up all test cases. Java has two categories in which data types are segregated </p>
+        <p>
+          <ol>
+            <li><strong>Primitive Data Type: </strong>such as boolean, char, int, short, byte, long, float, and double</li>
+            <li><strong>Non-Primitive Data Type or Object Data type: </strong>such as String, Array, etc.</li>
+          </ol>
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="Identifiers">
+      <header>Identifiers</header>
+      <article>
+        <p>In Java, identifiers are used for identification purposes. Java Identifiers can be a class name, method name, variable name, or label.</p>
+        <p>In the above Java code, we have 5 identifiers namely : </p>
+        <ul>
+          <li><strong>Test: </strong>class name.</li>
+          <li><strong>main: </strong>method name.</li>
+          <li><strong>String: </strong>predefined class name</li>
+          <li><strong>args: </strong>variable name.</li>
+          <li><strong>a: </strong>variable name</li>
+        </ul>
+        <code>
+          public class Test
+{
+    public static void main(String[] args)
+    {
+        int a = 20;
+    }
+}
+        </code>
+      </article>
+    </section>
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <article>
+        <p>Variables are the data containers that save the data values during Java program execution. Every Variable in Java is assigned a data type that designates the type and quantity of value it can hold. A variable is a memory location name for the data.</p>
+        <code>
+          import java.io.*;
+ 
+class GFG {
+    public static void main(String[] args)
+    {
+        // Declared a Local Variable
+        int var = 10;
+ 
+        // This variable is local to this main method only
+        System.out.println("Local Variable: " + var);
+    }
+}
+        </code>
+      </article>
+    </section>
+    <section class="main-section" id="String">
+      <header>String</header>
+      <article>
+        <p>The string is a sequence of characters. In Java, objects of String are immutable which means a constant and cannot be changed once created.</p>
+        <p>There are two ways to create string in Java:</p>
+        <ol><li>String literal</li>
+          <code>String s = “GeeksforGeeks”;</code>
+          <li>Using new keyword</li>
+          <code>String s = new String (“GeeksforGeeks”);</code>
+          </ol>
+      </article>
+    </section>
+    <section class="main-section" id="References">
+      <header>References</header>
+      <article>
+      <p>All the documentation in this page is taken from <a href="#References" id="References">MDN</a></p></article>
+    </section>
+  </main>
+</body>
+</html>
